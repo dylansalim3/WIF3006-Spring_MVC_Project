@@ -28,7 +28,7 @@ public class AssessmentController {
     @Autowired
     CalorieInputDto calorieInputDto;
 
-    @RequestMapping(value = "/form")
+    @RequestMapping(value = "/")
     public ModelAndView showForm() {
         ModelAndView modelAndView = new ModelAndView("form");
         modelAndView.addObject("exerciseLevels", calorieService.getExerciseLevels());

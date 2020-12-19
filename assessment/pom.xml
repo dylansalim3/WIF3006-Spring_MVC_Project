@@ -99,12 +99,7 @@
 						<webApp>
 							<contextPath>/</contextPath>
 						</webApp>
-						<systemProperties>
-							<systemProperty>
-								<name>log4j.configuration</name>
-								<value>file:jetty/log4j-jetty.properties</value>
-							</systemProperty>
-						</systemProperties>
+
 						<scanIntervalSeconds>10</scanIntervalSeconds>
 						<stopKey>foo</stopKey>
 						<stopPort>9999</stopPort>
