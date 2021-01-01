@@ -20,6 +20,8 @@
     cd assessment
     mvn jetty:run    
     ```
+3. Then go to this link
+http://localhost:8080/assessment/
 
 ## Project Structure
 <img src="https://raw.githubusercontent.com/dylansalim3/WIF3006-Spring_MVC_Project/master/raw/project-structure.png" alt="alt text" title="Project Structure" style="max-width:100%;">
